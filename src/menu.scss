@@ -182,7 +182,6 @@
     min-width: 200px;
     border: none;
     padding: 5px 0;
-    border-radius: $--border-radius-small;
     box-shadow: $--box-shadow-light;
 
     &-bottom-start {
@@ -210,7 +209,7 @@
     }
   }
 }
-  
+
 @include b(submenu) {
   list-style: none;
   margin: 0;
