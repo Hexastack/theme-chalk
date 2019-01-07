@@ -19,7 +19,7 @@
     background-color: $--input-fill;
     background-image: none;
     border: $--input-border;
-    border-radius: $--input-border-radius;
+    border-radius: $--input-border-radius / 3;
     transition: $--border-transition-base;
 
     &::placeholder {
